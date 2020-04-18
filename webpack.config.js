@@ -4,7 +4,8 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   entry: {
-    application: './src/javascripts/index.js'
+    application: './src/javascripts/index.js',
+    john: './src/javascripts/john.js'
   },
   mode: 'development',
   devtool: 'inline-source-map',
